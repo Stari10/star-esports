@@ -3,53 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Star's Hub</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star's Esports Hub</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-image: url('https://source.unsplash.com/1600x900/?gaming');
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://example.com/your-background-image.jpg'); /* Change to your desired background image */
             background-size: cover;
+            background-position: center;
             color: white;
-            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
         }
         .container {
-            background: rgba(0, 0, 0, 0.7);
-            padding: 20px;
-            border-radius: 10px;
-            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 50px;
+            border-radius: 15px;
+            width: 80%;
+            max-width: 800px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+        }
+        h1 {
+            font-size: 3rem;
+            color: #FF6F61;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2rem;
+            margin: 10px 0;
         }
         a {
-            color: #ffcc00;
             text-decoration: none;
+            color: #FF6F61;
             font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #fff;
+        }
+        .btn {
+            background-color: #FF6F61;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 20px 0;
+            display: inline-block;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #D24D42;
+            transform: scale(1.05);
+        }
+        .video-container {
+            margin-top: 20px;
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            height: 400px;
+            border-radius: 10px;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
         }
     </style>
 </head>
 <body>
+
     <div class="container">
-        <h1>Welcome to Star's Hub</h1>
+        <h1>Welcome to Star's Esports Hub</h1>
         <p>Follow me on TikTok and check out my PUBG settings!</p>
 
-        <h2>🎮 PUBG Sensitivity</h2>
-        <p>Use my PUBG sensitivity code:</p>
-        <p><strong>1-7457-3557-0607-4148-950</strong></p>
+        <h2>PUBG Sensitivity</h2>
+        <p>Gyro: 300% | ADS: 150% | Free Look: 100%</p>
 
-        <h2>💰 Support Me</h2>
-        <p>No PayPal yet, but you can support me by following on TikTok!</p>
+        <a href="https://www.tiktok.com/@xstar_esportsx?_t=ZM-8u6zp4HRU2Q&_r=1" class="btn" target="_blank">Follow Me on TikTok</a>
 
-        <h2>🔗 Connect With Me</h2>
-        <p><strong>My PUBG ID:</strong> 5645509261</p>
-        <p><strong>My PUBG Name:</strong> GTCxSTAR</p>
-        <p><a href="https://discord.gg/tb7VuUUr" target="_blank">Join My Discord</a></p>
-        <p><a href="https://www.tiktok.com/@xstar_esportsx" target="_blank">Follow Me on TikTok</a></p>
+        <h3>Connect With Me</h3>
+        <p>My PUBG ID: 5645509261</p>
+        <p>My PUBG Name: GTCxSTAR</p>
+        <p><a href="https://discord.gg/eAaDtsXT" target="_blank">Join My Discord</a></p>
 
-        <h2>📜 About Me</h2>
-        <p>I'm Star, a passionate PUBG player and TikTok content creator.</p>
-        <p>📱 Device: iPhone 11</p>
-        <p>📧 Contact: <a href="mailto:starii11207@gmail.com">starii11207@gmail.com</a></p>
+        <h3>About Me</h3>
+        <p>I’m Star, a passionate PUBG player and TikTok content creator. Join me for gaming fun, tips, and awesome clips!</p>
 
-        <p>© 2025 Star | All rights reserved.</p>
+        <div class="video-container">
+            <h3>Check Out My Latest Clips</h3>
+            <iframe src="https://www.tiktok.com/embed/vm.tiktok.com/ZMkcpJWCe/" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 Star | All rights reserved.</p>
+        </div>
     </div>
+
 </body>
 </html>
